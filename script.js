@@ -1,0 +1,1 @@
+console.log("Manage My Shifts is running!");
