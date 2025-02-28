@@ -1,6 +1,6 @@
 # FIRST PROJECT: FULL STACK SHIFT BUILDER EXERCISE SPECIFICATION DOCUMENT
 
-Introduction:
+# # Introduction:
 Application Name: "Manage My Shifts"
 Case Study
 A client approached you with a request to build an app to track the employees’
