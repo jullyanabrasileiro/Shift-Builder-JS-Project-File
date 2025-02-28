@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Shift</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Company Logo</h1>
+        <div class="top-bar-menu">
+            <button onclick="window.location.href='home.html'">Back to Home</button>
+        </div>
+    </header>
+
+    <main>
+        <h2>Add New Shift</h2>
+        <form id="addShiftForm">
+            <label for="shiftDate">Date:</label>
+            <input type="date" id="shiftDate" required>
+
+            <label for="startTime">Start Time:</label>
+            <input type="time" id="startTime" required>
+
+            <label for="endTime">End Time:</label>
+            <input type="time" id="endTime" required>
+
+            <label for="hourlyWage">Hourly Wage ($):</label>
+            <input type="number" id="hourlyWage" min="0" required>
+
+            <label for="workplace">Shift Place:</label>
+            <input type="text" id="workplace" required>
+
+            <button type="submit">Add Shift</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-menu">
+            <button onclick="window.location.href='home.html'">Home</button>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

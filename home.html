@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Manage my shifts App</h1>
+        <div class="top-bar-menu">
+            <button onclick="window.location.href='add-shift.html'">+ Add Shift</button>
+            <button onclick="window.location.href='edit-profile.html'">Edit Profile</button>
+            <button onclick="logout()">Logout</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <label for="shiftSearch">Shift:</label>
+            <input type="text" id="shiftSearch" placeholder="Search for shift">
+            <label for="dateFrom">From:</label>
+            <input type="date" id="dateFrom">
+            <label for="dateTo">To:</label>
+            <input type="date" id="dateTo">
+            <button onclick="filterShifts()">Search</button>
+        </div>
+
+        <table id="shiftsTable">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Start Time</th>
+                    <th>End Time</th>
+                    <th>Hourly Wage</th>
+                    <th>Shift Place</th>
+                    <th>Total Profit</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Shifts will be dynamically populated here -->
+            </tbody>
+        </table>
+
+        <div class="top-earning-month">
+            <h2>Top Earning Month</h2>
+            <p id="topEarningMonth">Loading...</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-menu">
+            <button onclick="window.location.href='home.html'">Home</button>
+            <button onclick="window.location.href='add-shift.html'">Add Shift</button>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
