@@ -15,7 +15,7 @@ body {
 }
 
 header { 
-    
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,6 +27,60 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center; 
+}
+
+/*home*/
+
+.top-bar-menu{
+    margin: 20px;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.shifts-display-table {
+    margin-top: 20px;
+}
+
+.shiftsTable { 
+    display: flex;
+    margin: 30px;
+}
+
+.top-earning-month {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+/*add shift*/
+.add-new-shift-diplay {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.add-new-shift-diplay h2 {
+    margin-bottom: 20px;
+}
+
+#addShiftForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.addShiftForm-times {
+    margin: 15px 0;
 }
 
 .container {
