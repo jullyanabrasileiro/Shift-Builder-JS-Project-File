@@ -31,7 +31,7 @@ document.getElementById("registerForm").onsubmit = function (event) {
     console.log("✅ Registration successful! Everything is OK!");
     alert("User registered successfully!");
 
-    window.location.href = "index.html";
+    window.location.href = "login.html";
 };
 
 // Login
@@ -46,7 +46,7 @@ document.getElementById("loginForm").onsubmit = function (event) {
     if (storedUser && storedUser.email === email && storedUser.password === password) {
         alert("Login successful!");
 
-        window.location.href = "dashboard.html"; 
+        window.location.href = "home.html"; 
     } else {
         alert("Invalid email or password!");
     }
