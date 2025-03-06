@@ -1,4 +1,3 @@
-/* Reset & General Styling */
 * {
     margin: 0;
     padding: 0;
@@ -164,6 +163,14 @@ tr:hover {
 .register-container a {
     margin: 20px;
     font-size: smaller;
+}
+
+/*edit profile*/
+#editProfileForm {
+    max-width: 600px;
+    width: 100%;
+    margin: 50px auto;
+    font-size: small;
 }
 
 /* Responsiveness */

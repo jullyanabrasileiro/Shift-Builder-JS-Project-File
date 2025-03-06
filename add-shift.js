@@ -23,5 +23,5 @@ document.getElementById("addShiftForm").onsubmit = function(event) {
     localStorage.setItem("shifts", JSON.stringify(shifts));
 
 
-    window.location.href = "home.html";
+    window.location.href = "login.js";
 };
