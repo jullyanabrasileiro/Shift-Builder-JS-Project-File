@@ -173,6 +173,11 @@ tr:hover {
     font-size: small;
 }
 
+#editProfileForm button {
+    display: flex;
+    margin: 20px auto;
+}
+
 /* Responsiveness */
 @media (max-width: 768px) {
     table {
